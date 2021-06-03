@@ -9,3 +9,8 @@ install:
 script:
   - python -m unittest test
 
+# safelist
+branches:
+  only:
+  - main
+  - dev
